@@ -33,4 +33,9 @@ public class Item {
         this.title = title;
         this.author = author;
     }
+
+    public void update(Item updatedItem) {
+        this.title = updatedItem.getTitle();
+        this.author = updatedItem.getAuthor();
+    }
 }
